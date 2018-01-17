@@ -105,13 +105,13 @@ img {
 }
 
 header {
-  width:270px;
+  width:200px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul {
+/*header ul {
   list-style:none;
   height:40px;
   padding:0;
@@ -123,7 +123,7 @@ header ul {
 
 header li {
   width:89px;
-  float:left;
+  float:left;/*
   border-right:1px solid #e0e0e0;
   height:40px;
 }
@@ -153,6 +153,50 @@ header ul a:hover {
 header ul a:active {
   background-color:#f0f0f0;
 }
+*/
+
+header ul{
+  list-style: none;
+  padding:16px 0 16px 0;
+  border-top: 1px #e1e4e8 solid !important;
+}
+
+header ul li{
+  font-size: 14px;
+  /*line-height:14px*/
+  vertical-align: top;
+  padding-top: 3px;
+  display: inline-block;
+  width: 100%;
+  /*overflow: hidden;*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  vertical-align: top;
+}
+
+.octicon{
+    float: left;
+    width: 16px;
+    margin-top: 3px;
+    margin-right: 5px;
+    color: #6a737d;
+    text-align: center;
+    
+}
+header .full-name{
+  display: block;
+  font-size: 26px;
+  line-height: 30px;
+}
+
+header .nick-name{
+  display: block;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  color: #666;
+}
 
 strong {
   color:#222;
@@ -171,7 +215,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:600px;
   float:right;
   padding-bottom:50px;
 }
